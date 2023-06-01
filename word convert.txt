@@ -1,0 +1,6 @@
+from pdf2docx import Converter
+
+pdf_file='choice.pdf'
+word_file='choicwnew.docx'
+cv=Converter(pdf_file)
+cv.convert(word_file)
